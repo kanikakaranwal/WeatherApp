@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #448aff;
+    background-image: url(https://img.freepik.com/free-photo/sky-covered-with-clouds_1122-742.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1708905600&semt=ais);
+ 
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    width: 410px;
+    margin: 50px auto;
+    padding: 10px;
+}
+.inputs {
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: white;
+}
+.inputs input[type="text"] {
+    height: 3.5rem;
+    width: 20rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #c2c2c2;
+    border-radius: 2px;
+    margin-right:4px ;
+}
+.inputs input[type="submit"] {
+    height: 3.2rem;
+    width: 6.5rem;
+    background: #0a67ca;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+}
+.display {
+    text-align: center;
+    width: 390px;
+    color: #16a864;
+   
+}
+.display-items {
+    margin: 0 9rem;
+    background-color: white;
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+.display-items h2{
+    padding: 5px 0;
+    text-align: center;
+    background: #0548b5;
+    color: white;
+    font-family: sans-serif;
+  }
+ .display-items p{
+    margin:20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #04214c;
+    font-size:23px;
+    font-weight: bolder;
+ }
+
+.display-items h2 span{
+    font-size: 26px;
+    color: black;
+    font-weight: bolder;
+ }
+.display-items p span{
+    color: #90006e;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+
